@@ -12,6 +12,42 @@
   transition: all .2s linear;
 }
 
+:root{
+  --white:#fff;
+  --black:#0c0c0c;
+}
+
+*{
+  font-family: 'Rubik', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  transition: .2s linear;
+}
+
+body.dark{
+  --white:#0e0d0d;
+  --black:#fff;
+}
+
+
+#toggle-btn{
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  background-color: var(--black);
+  color:var(--white);
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  position: fixed;
+  top:20px; left: 30px;
+}
+
+#toggle-btn.fa-moon{
+  transform: rotate(360deg);
+}
+
 img {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -77,9 +113,10 @@ section {
 
 .btn {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-left: 10rem;
   padding: 1rem 3rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   border: 0.1rem solid #0eb582;
   background: #f0fdfa;
   color: #0eb582;
@@ -87,10 +124,31 @@ section {
   text-transform: capitalize;
 }
 
+
 .btn:hover {
   background: #0eb582;
   color: #fff;
 }
+
+.btns {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 10rem; 
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid #0eb582;
+  background: #f0fdfa;
+  color: #0eb582;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+
+.btns:hover {
+  background: #0eb582;
+  color: #fff;
+}
+
 
 .header {
   position: -webkit-sticky;
