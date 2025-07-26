@@ -1,23 +1,39 @@
-````markdown name=README.md
-👋 Hi, I'm Sumitpodder
+🌟 Student-Mentoring Portal
 
-I'm a passionate student pursuing BTech in Computer Science Engineering with a specialization in Data Science. My journey is fueled by curiosity and a drive to turn ideas into impactful projects, especially in the field of IoT.
-
- 🚀 Top Skills & Technologies
-- **Languages:** JavaScript, Python
-- **Frameworks & Tools:** Django, Postman, HTML, CSS
-- **Domains:** Machine Learning, Artificial Intelligence
-
-🌟 Featured Projects
-- **IoT Innovations:** I love building smart solutions that connect the world, combining hardware and software to create meaningful change.
-
-💡 Fun Facts & Interests
-- Coding is not just a skill—it's my passion!
-- I enjoy participating in coding events like Leftcode and Vivecoding.
-- Always eager to learn something new and push my limits.
+The **Student-Mentoring Portal** is a modern, responsive web platform built to support students across various academic domains such as Artificial Intelligence, Engineering, Mathematics, and more. It fosters a supportive environment where students can build one-on-one mentoring connections with teachers and freely express academic or personal challenges.
 
 ---
 
-> “Every project is a new opportunity to grow, learn, and make a difference. Let’s build the future together—one line of code at a time!”
+🎯 Key Features
 
-````
+- 👨‍🏫 **1-on-1 Teacher–Student Mentoring**
+- 📚 **Multi-Domain Support**: AI, Engineering, Math, etc.
+- 🌙 **Dark Mode** for better accessibility
+- 📱 **Fully Responsive** on all devices (desktop, tablet, mobile)
+- 💬 **Problem Sharing**: Safe space for student concerns
+- 🖼️ Clean, minimal UI with modern design principles
+
+---
+
+🛠️ Tech Stack
+
+| Component | Technology       |
+|-----------|------------------|
+| Frontend  | HTML, CSS, JavaScript |
+| UI Design | Fully Responsive + Dark Mode |
+
+---
+
+🚀 Getting Started
+
+⚙️ Prerequisites
+
+- A modern browser (Chrome, Firefox, etc.)
+- Optional: Local web server (e.g., XAMPP) if backend integration is added later
+
+🧾 Installation
+
+```bash
+git clone https://github.com/yourusername/student-mentoring.git
+cd student-mentoring
+open index.html
